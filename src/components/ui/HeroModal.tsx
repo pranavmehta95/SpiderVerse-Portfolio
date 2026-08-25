@@ -35,7 +35,7 @@ export default function HeroModal({ isOpen, onClose }: HeroModalProps) {
 
   return (
     <>
-      <audio ref={audioRef} src="/sunflower.mp3" loop />
+      <audio ref={audioRef} src="/Sunflower.mp3" loop />
       <AnimatePresence>
         {isOpen && (
         <motion.div
